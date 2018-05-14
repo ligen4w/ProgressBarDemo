@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBarView">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="strokeWidth" format="dimension"></attr>
+        <attr name="circleColorCpb" format="color"></attr>
+        <attr name="ringColor" format="color"></attr>
+        <attr name="maxProgress" format="integer"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleWaveView">
+        <attr name="centerRadius" format="dimension"></attr>
+        <attr name="maxCircleRadius" format="dimension"></attr>
+        <attr name="centerColor" format="color"></attr>
+        <attr name="circleColorWcv" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="LinearBallsLoadingView">
+        <attr name="smallBallRadius" format="dimension"></attr>
+        <attr name="largeBallRadius" format="dimension"></attr>
+        <attr name="ballsSpacing" format="dimension"></attr>
+        <attr name="ballColor" format="color"></attr>
+        <attr name="duration" format="integer"></attr>
+        <attr name="ballsNum" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleBallsLoadingView">
+        <attr name="smallBallRadius_c" format="dimension"></attr>
+        <attr name="largeBallRadius_c" format="dimension"></attr>
+        <attr name="circleRadius" format="dimension"></attr>
+        <attr name="ballColor_c" format="color"></attr>
+        <attr name="duration_c" format="integer"></attr>
+        <attr name="ballsNum_c" format="integer"></attr>
+    </declare-styleable>
+
+</resources>
